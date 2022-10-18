@@ -2,7 +2,7 @@
 
 /**
  * _abs  - prints a program
- * n - an integer
+ * @n: - an integer
  * Return: 0 if sucessul
  */
 
