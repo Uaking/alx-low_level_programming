@@ -2,7 +2,7 @@
 
 /**
  * print_sign - prints a program
- * n - an integer
+ * @n - an integer
  * Return: 1 if ok, 0 if not
  */
 
