@@ -2,6 +2,7 @@
 
 /**
  * _isalpha - checks if its a letter
+ * @c: - an integer
  * Return: 1 if a letter, 0 if otherwise
  */
 
