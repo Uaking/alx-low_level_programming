@@ -6,11 +6,7 @@
  */
 
 int main(void)
-{
-	char h[] = "_putchar";
-	int s = sizeof(h);
-	int i;
-	
+{	
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
