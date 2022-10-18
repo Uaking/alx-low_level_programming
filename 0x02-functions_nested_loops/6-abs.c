@@ -2,6 +2,7 @@
 
 /**
  * _abs  - prints a program
+ * n - an integer
  * Return: 0 if sucessul
  */
 
