@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** main - prints sometjkng
+/**
+ * main - prints sometjkng
  * Return: 0 if sucessful
  */
 
@@ -10,7 +11,7 @@ int main(void)
 	int s = sizeof(h);
 	int i;
 
-	for (i = 0; i < s; i++)
+	for (i = 0; i <= s; i++)
 	{
 		_putchar(h[i]);
 	}
