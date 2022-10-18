@@ -2,6 +2,7 @@
 
 /**
  * _islower - prints a comparism
+ * @c: - an integer
  * Return: 1 if sucessful, 0 if otherwise
  */
 
