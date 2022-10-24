@@ -4,7 +4,7 @@
 /**
  * _strlen - returns size of a char
  * @s: the char to check
- * return i
+ * return: i if succesful
  */
 
 int _strlen(char *s)
