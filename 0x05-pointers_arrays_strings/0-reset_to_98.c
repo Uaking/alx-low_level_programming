@@ -3,7 +3,7 @@
 
 /**
  * reset_to_98 - resets a pointer to 98
- * @n - integer to be checked
+ * @n: integer to be checked
  * Return void
  */
 
