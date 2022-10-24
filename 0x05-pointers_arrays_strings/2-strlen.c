@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strlen - returns size of a char
+ * _strlen: - returns size of a char
  * @s: the char to check
  */
 
