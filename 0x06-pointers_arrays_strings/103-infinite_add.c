@@ -16,8 +16,12 @@ char *
 	{
 		int i, j, k, l, m, n;
 
-		for (i = 0; n1[i]; i++);
-		for (j = 0; n2[j]; j++);
+		for (i = 0; n1[i]; i++)
+			;
+
+		for (j = 0; n2[j]; j++)
+			;
+
 		if (i > size_r || j > size_r)
 			return (0);
 		m = 0;
@@ -49,3 +53,4 @@ char *
 
 		return (r);
 	}
+
