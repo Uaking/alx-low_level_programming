@@ -4,6 +4,7 @@
 /**
  *factorial - returns the factorial
  *@n: integer to be factored
+ * Return: the integer
  */
 
 int factorial(int n)
@@ -17,5 +18,5 @@ int factorial(int n)
 		return (1);
 	}
 	else
-		return (n* factorial(n - 1));
+		return (n * factorial(n - 1));
 }
