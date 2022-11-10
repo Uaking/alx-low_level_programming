@@ -1,27 +1,20 @@
 #include <stdlib.h>
-#include <main.h>
+#include "holberton.h"
 
 /**
- * malloc_checked - our main file
- * @b: our int dile
+ * *malloc_checked - allocates memory using malloc
+ * @b: number of bytes to allocate
+ *
+ * Return: a pointer to the allocated memory
  */
-
 void *malloc_checked(unsigned int b)
 {
-	int *ptr;
+	void *ptr;
 
-	if (b == NULL)
-		return (98);
+	ptr = malloc(b);
 
-	else
-	{
-		b = malloc (sizeof(b));
-		ptr = &b;
-	}
+	if (ptr == NULL)
+		exit(98);
 
 	return (ptr);
 }
-
-	
-
-
