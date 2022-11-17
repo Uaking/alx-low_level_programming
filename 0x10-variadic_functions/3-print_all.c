@@ -89,7 +89,7 @@ void print_all(const char *const format, ...)
 			{
 				printf("%s", sep);
 				(var[i].printf)(arg_variables);
-				sep = ", ";
+				sep = ", ";
 				break;
 			}
 
